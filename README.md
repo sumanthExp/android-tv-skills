@@ -23,6 +23,7 @@ The gain is small. A 2 GB TV hits its hardware limit fast, and the skill tells y
 - System apps get `pm disable-user`, which you can reverse. The skill deletes nothing.
 - It installs no third-party launchers or APKs unless you ask.
 - On data collection, it reports what it checked and stops short of guessing.
+- For DNS blocking, it sorts domains into leave-alone, optional and unknown, blocks one at a time and keeps a list so you can undo each block. See [`dns-blocking.md`](skills/android-tv-cleanup/references/dns-blocking.md).
 
 ## Skills
 
